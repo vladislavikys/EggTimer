@@ -15,20 +15,18 @@ class ViewController: UIViewController {
     let hardTime = 12
     
 
-
-    
-    
-    
-    
     @IBAction func hardnessSelected(_ sender: UIButton) {
-        var hardness = sender.currentTitle
+        let  hardness = sender.currentTitle
         
-        if hardness == "Soft"{
+        switch hardness {
+        case "Soft":
             print(softTime)
-        }else if  hardness == "Medium"{
+        case "Mediun":
             print(mediumTime)
-        }else if hardness == "Hard"{
+        case "Hard":
             print(hardTime)
+        default:
+            print("you lose ")
         }
     }
     
