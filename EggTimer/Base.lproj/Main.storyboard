@@ -135,7 +135,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="title" destination="XLm-5r-pSP" id="DVb-yf-cM4"/>
+                        <outlet property="titleLabel" destination="XLm-5r-pSP" id="AoC-Pf-6KX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
